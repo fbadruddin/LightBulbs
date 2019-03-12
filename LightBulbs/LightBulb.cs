@@ -12,5 +12,7 @@ namespace LightBulbs
 		{
 			IsSwitchedOn = IsSwitchedOn != true;
 		}
-	}
+
+        public override string ToString() => "Light Bulb";
+    }
 }
